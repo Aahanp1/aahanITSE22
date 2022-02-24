@@ -1,0 +1,24 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    
+   <script>
+      function showEvent(from, text) {
+        alert( from + text );}
+        showEvent('Load', ' a Page');
+    </script>
+    
+    <title>Button Function</title>
+     </head>
+     <body onload="showEvent('Hello Human!' , ' Page loading.')">
+    <p>Click to start the function:</p>
+    <button onclick="myFunction()">Click Me!</button>
+    <p id="demo"></p>
+     
+     <script>
+      function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello Human!; Well Done, clicking the button!"
+      }
+    </script>
+  </body>
+</html>
